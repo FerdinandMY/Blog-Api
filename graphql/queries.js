@@ -63,4 +63,4 @@ const comment = {
   },
 }
 
-module.exports = { users, user, posts, post, postByUser , comments, comment }
+module.exports = { users, user, posts, post, comments, comment }
