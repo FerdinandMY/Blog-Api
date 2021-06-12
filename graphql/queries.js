@@ -37,14 +37,14 @@ const post = {
   },
 }
 
-const postByUser = {
+/*const postByUser = {
     type: new GraphQLList(PostType),
     description: "Retrieves list of posts for user",
     args: { authorId: { type: GraphQLID } },
     resolve(parent, args) {
       return Post.find(() => parent.authorId == args.authorId)
     },
-}
+}*/
   
 const comments = {
   type: new GraphQLList(CommentType),
